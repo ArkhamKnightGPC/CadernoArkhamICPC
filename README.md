@@ -6,7 +6,7 @@ Conteúdo (meta)
 
 -> MIN COST MAX FLOW
 
--> FFT
+-> FFT (DFT e DFT inverso)
 
 -> LI CHAO TREE
 
@@ -26,8 +26,8 @@ Conteúdo (meta)
 
 -> AHO CORASICK
 
--> MATCHING (HASHING + BLOOM FILTERS)
-
 -> DYNAMIC CONNECTIVITY
 
 -> EERTREE
+
+-> REACHABILITY TREE
