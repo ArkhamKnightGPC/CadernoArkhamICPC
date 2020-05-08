@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define pii pair<int,int>
-const int MAXN = 1e5+7, MAXQ=1e5+7, sqn=700;
+const int MAXN = 1e5+7, MAXQ=1e5+7, sqn=800;
 int n,q;
 int ti[MAXQ],xi[MAXQ],yi[MAXQ], pai[MAXN], h[MAXN];
 bool tem_query[MAXQ];
@@ -81,7 +81,7 @@ int main(){
             //que arestas novas vamos ativar ate o j
             if(ti[j]==0){
                 arestas_ativadas_dentro.insert({xi[j], yi[j]});
-            }else if(ti[j]==1 && arestas_ativadas_dentro.find({xi[j],yi[j]})!=arestas_ativadas_dentro.end()){
+            }else if(ti[j]==1){
                 arestas_ativadas_dentro.erase({xi[j], yi[j]});
             }
             if(ti[j] != 2)continue;
