@@ -24,7 +24,7 @@ Conteúdo (meta)
 
 -> SUFFIX ARRAY
 
--> AHO CORASICK
+-> AHO CORASICK (ok)
 
 -> DYNAMIC CONNECTIVITY (ok)
 
