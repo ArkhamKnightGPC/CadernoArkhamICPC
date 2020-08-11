@@ -8,6 +8,7 @@ const int MAXN = 3e3+7, LIM = 4e6+7;
 int p,q,c,m;
 vector<pii> s;
 ll dp[MAXN], fat[LIM], inv[LIM], inv_fat[LIM];
+
 ll fastxp(ll x, ll ep){
     if(ep==0)return 1LL;
     if(ep%2==1)return (x*fastxp(x, ep-1))%MOD;
