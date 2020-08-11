@@ -10,6 +10,7 @@ ordered_set mult[MAXN];
 vector<int> primos, divvprim;
 bool composto[MAXN];
 int n, a[MAXN],q;
+
 void generate(int num){//generate vector of prime divvisor (divvprim)
     int ip = 0;
     //printf("LETS DO IT %d : ", num);
