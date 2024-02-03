@@ -1,33 +1,13 @@
-# CadernoArkhamICPC
+# Arkham codes for ICPC
 
-Conteúdo (meta)
+## Contents
 
--> MAX FLOW (ok)
-
--> MIN COST MAX FLOW
-
--> FFT (DFT e DFT inverso) (ok)
-
--> LI CHAO TREE (ok)
-
--> WAVELET TREE (ok)
-
--> SEG 2D
-
--> SEG PERSISTENTE (ok)
-
--> CENTROID DECOMPOSITION
-
--> DSU ON TREES
-
--> HEAVY LIGHT DECOMPOSITION (ok)
-
--> SUFFIX ARRAY
-
--> AHO CORASICK (ok)
-
--> DYNAMIC CONNECTIVITY (ok)
-
--> EERTREE
-
--> REACHABILITY TREE (ok)
+- MAX FLOW (✔️) using [tidal flow algorithm](https://ioinformatics.org/journal/v12_2018_25_41.pdf)
+- FFT (DFT and Inverse DFT) (✔️)
+- LI CHAO TREE (✔️)
+- WAVELET TREE (✔️)
+- PERSISTENT SEGMENT TREE (✔️)
+- HEAVY LIGHT DECOMPOSITION (✔️)
+- AHO-CORASICK (✔️)
+- DYNAMIC CONNECTIVITY (✔️)
+- REACHABILITY TREE (✔️)
